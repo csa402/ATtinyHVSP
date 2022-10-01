@@ -5,7 +5,7 @@
 #include <util/delay.h>   // for delays
 
 
-/*
+/* Rappel connections : 
 #define RST_PIN   PB5 //13 // 12V !RESET                       Pin 1 of target device
 #define SCI_PIN   PB4 //12 // Serial Clock Input (SCI)         Pin 2 of target device
 #define SDO_PIN   PB3 //11 // Serial Data Output (SDO)         Pin 7 of target device

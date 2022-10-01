@@ -1,4 +1,6 @@
 //Tiny HVSP V1.4
+//Platine arduino uno (mini pro flashé en uno)
+//validé pour T13 , T25 , T45 , T84 , T85 , T24
 
 
 // ===================================================================================
@@ -232,7 +234,7 @@ void OLED_printHex(uint8_t value) {
 #define T24_SIG           0x910b
 #define T25_SIG           0x9108
 #define T44_SIG           0x9207
-#define T45_SIG           0x1e9206
+#define T45_SIG           0x9206
 #define T84_SIG           0x930c
 #define T85_SIG           0x930b
 
@@ -426,7 +428,7 @@ void waitButton() {
 
 // Text strings stored in program memory
 const char TitleScreen[] PROGMEM =
-  "Tiny HVSP Version 1.4"
+  "Tiny HVSP Version 1.5"
   "Insert  ATtiny  into "
   "the socket and press "
   "OK-Button to continue";

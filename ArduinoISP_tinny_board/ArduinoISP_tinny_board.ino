@@ -1,4 +1,4 @@
-//ISP Specific pour platine HVSPreset
+//AVRISP Specifique pour platine HVSPreset
 
 
 #define I2C_SCL   PC5 // I2C Serial Clock (SCK)
